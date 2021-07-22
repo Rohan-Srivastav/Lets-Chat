@@ -43,7 +43,7 @@ function add_room(){
 
    localStorage.setItem("room_name" , room_name);
 
-   window.location = "LetsChat_Page.html";
+   window.location = "LetsChat_page.html";
 }
 
 function redirect(name)
