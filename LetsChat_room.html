@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lets Chat</title>
+    <link rel="stylesheet" href="LetsChat_room.css">
+
+
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="LetsChatLogo.jpeg">
+
+</head>
+<body onload="show()" style="background-color: paleturquoise;">
+
+
+    <div class="container col-lg-12 col-md-12 col-sm-6 col-xs-12">
+
+        <button class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()" id="logout">Logout</button>
+
+
+        <center>
+        
+            <h1><i><b> Welcome To Lets Chat </b></i><span id="user_n"></span></h1>
+        
+            
+        
+               
+                <h3>Join One of the rooms below to join all the different people on Internet</h3>
+                
+                <div class="form-group findroom_div" style="width: 65%;">
+                    <h3><i><b>#ADD ROOM : </b></i></h3>
+                    <input type="text" style="text-align: center;" id="room_name" class="form-control" placeholder="Enter a Room Name">
+       
+              
+               
+            </div>
+       
+            <button class="btn btn-primary" onclick="add_room()">Add Room</button>
+        <div>
+
+            <h1>#TRENDINGROOMS</h1>
+        
+            <div id="output" style="background-color: linear-gradient;"></div>
+
+        </div>
+       
+                
+            
+        
+       
+        
+           
+            
+            
+        </center>
+
+   
+    </div>
+
+    <script src="LetsChat_room.js"></script>
+</body>
+
+</html>

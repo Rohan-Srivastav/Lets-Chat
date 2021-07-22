@@ -1,0 +1,80 @@
+#logout
+{
+	font-size: 20px; float: right;
+}
+
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: white;font-size: 20px;
+}
+
+
+.input_div_message_page
+{
+	position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    width: 100%;
+    background: rgba(255,255,255,0.8);
+}
+.input_div_message_page label
+{
+	color: black;
+}
+.input_div_message_page #msg
+{
+	width: 80%;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+.color_white
+{
+	color: white
+}
+
+.user_tick
+{
+	width:20px;
+}
+.message_h4
+{
+	padding-left:5px;color:grey;
+}
+body{
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9, #c6ffdd, #fbd786, #f7797d, #2980b9, #6dd5fa, #ffffff, #b92b27, #1565c0);
+	text-align: center;
+}
+.sticky {
+
+	position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  
+   
+  }
+
+  html{
+	  scroll-behavior: smooth;
+  }
+
+  #msg{
+
+	margin-left: 10%;
+	border: 4px double pink ;
+	border-radius: 20px;
+	color: black;
+  }

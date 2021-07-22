@@ -1,0 +1,17 @@
+#user_name{
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.login_div
+{
+	background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+    float: none;
+    height: 650px;
+    
+}
+#login_start{
+
+    margin-top: 32%;
+}
