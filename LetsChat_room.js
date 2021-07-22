@@ -50,7 +50,7 @@ function redirect(name)
 {
    console.log(name);
    localStorage.setItem("room_name" , name);
-   window.location = "LetsChat_page.html";
+   window.location.replace("LetsChat_page.html");
 }
 
   function logout(){
